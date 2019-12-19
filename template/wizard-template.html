@@ -1,0 +1,22 @@
+<div class="wizard-template" id="<%= wizard  %>">
+	<ul>
+		<% for(let i = 1; i<= steps; i++) { %>
+		<li data-target="wizard<%= i %>">
+			<a href="#">wizard <%= i %></a>
+		</li>
+		<% } %>
+	</ul>
+	<div class="tab-content">
+		<% for(let i = 1; i<= steps; i++) { %>
+		<div id="wizard<%= i %>">
+			page 1
+		</div>
+		<% } %>
+	</div>
+</div>
+
+<script>
+	
+	console.log(<%= wizard  %>)	
+
+</script>

@@ -1,0 +1,41 @@
+{
+  "name": "intelligent-wizard",
+  "version": "1.0.0",
+  "description": "form wizard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "intelligent-wizard",
+    "form",
+    "wizard",
+    "wizard",
+    "dynamic",
+    "wizard",
+    "javascript",
+    "wizard",
+    "jquery",
+    "wizard",
+    "input",
+    "wizard",
+    "steps",
+    "form",
+    "form",
+    "steps",
+    "form",
+    "flow"
+  ],
+  "author": "rakesh shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ejs": "^3.0.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.1",
+    "inquirer-fuzzy-path": "^2.2.0"
+  },
+  "bin": {
+    "intelligent-wizard": "./index.js"
+  }
+}
